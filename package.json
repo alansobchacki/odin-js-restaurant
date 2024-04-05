@@ -1,0 +1,19 @@
+{
+  "name": "odin-js-restaurant-page",
+  "version": "1.0.0",
+  "description": "a basic restaurant page",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Sobchacki",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0"
+  }
+}
