@@ -1,20 +1,28 @@
-// index.js will handle tab switching logic and visual displays
+// index.js will handle our tab management
 
+import './style.css';
 import { buildHome } from './home.js';
 import { buildMenu } from './menu.js';
+import { buildContactUs } from './contact.js';
 
-// buttons set-up
+// tab buttons set-up
 
-const mainButton = document.getElementById('main_button');
+const homeButton = document.getElementById('home_button');
 const menuButton = document.getElementById('menu_button');
+const contactButton = document.getElementById('contact_button');
 
-mainButton.addEventListener('click', function() {
+homeButton.addEventListener('click', function() {
   displayPage(buildHome);
 });
 
 menuButton.addEventListener('click', function() {
   displayPage(buildMenu);
 });
+
+contactButton.addEventListener('click', function() {
+  displayPage(buildContactUs);
+});
+
 
 // tab-switching logic
 
@@ -34,3 +42,7 @@ function clearPage() {
 // an initial call to display the contents of our main page
 
 buildHome();
+
+export {
+  displayPage
+}

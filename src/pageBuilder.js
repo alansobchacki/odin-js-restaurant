@@ -1,6 +1,6 @@
-// pageBuilder.js is a module that allows us to create new HTML elements and append them to the DOM
+// pageBuilder.js is a module to help us create new HTML elements and append them to the DOM
 // To use it, create a new .js file for your page (i.e, 'home.js')
-// then import this module and call the functions below inside a single function
+// then import this module and call the functions below inside a single function as needed
 
 const page = document.getElementById('content');
 
