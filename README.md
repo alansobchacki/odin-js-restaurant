@@ -3,7 +3,7 @@ Project: Restaurant
 
 A basic mock-up of a fictional restaurant.
 
-Here's the [live project demo.](https://alansobchacki.github.io/odin-library/](https://alansobchacki.github.io/odin-js-restaurant/))
+Here's the [live project demo.](https://alansobchacki.github.io/odin-js-restaurant/)
 
 About
 -----
