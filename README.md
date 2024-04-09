@@ -20,5 +20,5 @@ These were the project requirements:
 What I Learned
 -----
 
-I learned how to build a website by manipulating the DOM entirely through Javascript. I also learned how to build a basic webpack-powered app.
+I learned how to build a website by manipulating the DOM entirely through Javascript. I also learned how to build a basic webpack-powered app and upload it to Github Pages.
 
